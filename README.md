@@ -41,7 +41,7 @@ A Slay the Spire-inspired deckbuilder in Godot 4 with a narrative layer. Feature
 - GDScript, Godot 4
 - Combat engine, procedural map generator, branching event system
 - Card/relic pools, status effects, shop and rest mechanics
-- Includes [Copy All Errors](https://github.com/Maliik-B/Fable/tree/master/addons/copy_all_errors) -- a Godot editor plugin for batch-copying debugger output
+- Uses the [Copy All Errors](https://github.com/Maliik-B/Fable/tree/master/addons/copy_all_errors) Godot editor plugin for batch-copying debugger output
 
 `6.3K LOC`
 
