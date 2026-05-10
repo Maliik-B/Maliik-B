@@ -15,9 +15,22 @@ A production PWA that aggregates food, drug, device, product, and vehicle recall
 - **Data:** PostgreSQL via Supabase, 105 migrations, full keyword extraction and classification
 - **Monetization:** Stripe + RevenueCat (subscription model)
 
-`158K LOC` | `991 tests` | `41 data pipelines` | `13 countries` | `13 languages`
+`158K LOC` | `1012 tests` | `41 data pipelines` | `13 countries` | `14 languages`
 
 *Private repository -- available for code walkthrough in interviews.*
+
+---
+
+### [Waypoint IEP Server](https://github.com/Maliik-B/waypoint-mcp) -- MCP Server for Education
+
+An MCP server that helps teachers differentiate instruction for students with Individualized Education Programs (IEPs). Given a lesson and a student's IEP, the server provides Claude with structured context to produce specific, actionable instructional modifications.
+
+- TypeScript, Model Context Protocol (MCP 1.0)
+- Multi-student differentiation with accommodation matrices
+- Structured IEP data parsing, lesson plan analysis, and self-regulation checkpoints
+- Built for the [Waypoint Learning Challenge](https://github.com/igoldstein19/waypoint-challenge)
+
+`48 tests`
 
 ---
 
