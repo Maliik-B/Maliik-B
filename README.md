@@ -10,12 +10,12 @@ Full-stack developer and game designer. I build production software and multipla
 
 A production PWA that aggregates food, drug, device, product, and vehicle recalls from government agencies across 13 countries. Users get personalized safety alerts based on dietary needs, allergies, and location.
 
-- **Frontend:** React + TypeScript, 48 pages, 13 languages, Capacitor for Android
-- **Backend:** Express.js API with 41 automated ingestion pipelines sourcing data from FDA, Health Canada, FSANZ, TGA, EU Safety Gate, RASFF, and 30+ other agencies
-- **Data:** PostgreSQL via Supabase, 105 migrations, full keyword extraction and classification
+- **Frontend:** React + TypeScript, 48 pages, 14 languages, Capacitor for Android
+- **Backend:** Express.js API with 48 automated ingestion pipelines sourcing data from FDA, Health Canada, FSANZ, TGA, EU Safety Gate, RASFF, and 30+ other agencies
+- **Data:** PostgreSQL via Supabase, 108 migrations, full keyword extraction and classification
 - **Monetization:** Stripe + RevenueCat (subscription model)
 
-`158K LOC` | `1012 tests` | `41 data pipelines` | `13 countries` | `14 languages`
+`158K LOC` | `1,134 tests` | `48 data pipelines` | `13 countries` | `14 languages`
 
 *Private repository -- available for code walkthrough in interviews.*
 
@@ -57,6 +57,15 @@ A Slay the Spire-inspired deckbuilder in Godot 4 with a narrative layer. Feature
 - Uses the [Copy All Errors](https://github.com/Maliik-B/Fable/tree/master/addons/copy_all_errors) Godot editor plugin for batch-copying debugger output
 
 `6.3K LOC`
+
+---
+
+## Open Source
+
+I contribute to the tools I build on:
+
+- **[resend/react-email #3572](https://github.com/resend/react-email/pull/3572)** -- Merged a fix so uploading a template updates the existing Resend template instead of creating a duplicate.
+- **[supabase/postgres-meta #1083](https://github.com/supabase/postgres-meta/pull/1083)** and **[supabase/postgrest-js #2461](https://github.com/supabase/supabase-js/pull/2461)** -- A `bigint_as` type-generation option for int8/numeric columns, so values past 2^53 stay lossless. In active maintainer review, designed together with a Supabase maintainer.
 
 ---
 
