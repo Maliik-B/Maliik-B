@@ -21,6 +21,20 @@ A production PWA that aggregates food, drug, device, product, and vehicle recall
 
 ---
 
+### [Turing Tables](https://github.com/Maliik-B/turing-tables) -- Roguelite Deckbuilder vs a Live LLM
+
+**[Playable](https://maliik-b.github.io/turing-tables/)** | Built for the June Solstice Game Jam
+
+A roguelite deckbuilder where you interrogate AI opponents. About 70% of the opponent's moves are live Google Gemini calls and 30% are deterministic scripts, and you score by catching the fakes, a playable Turing test.
+
+- React 19 + TypeScript + Vite + Tailwind, fully static (GitHub Pages), no backend
+- Google Gemini API with multi-model fallback (2.5 Flash-Lite / 2.5 Flash / 3 Flash)
+- All visuals generated in CSS/SVG, audio synthesized via Web Audio, CSP locked to Google only
+
+`React 19` | `TypeScript` | `Gemini API` | `shipped`
+
+---
+
 ### [Waypoint IEP Server](https://github.com/Maliik-B/waypoint-mcp) -- MCP Server for Education
 
 An MCP server that helps teachers differentiate instruction for students with Individualized Education Programs (IEPs). Given a lesson and a student's IEP, the server provides Claude with structured context to produce specific, actionable instructional modifications.
