@@ -25,7 +25,7 @@ A production PWA that aggregates food, drug, device, product, and vehicle recall
 
 **[Playable](https://maliik-b.github.io/turing-tables/)** | Built for the June Solstice Game Jam
 
-A roguelite deckbuilder where you interrogate AI opponents. About 70% of the opponent's moves are live Google Gemini calls and 30% are deterministic scripts, and you score by catching the fakes, a playable Turing test.
+A roguelite deckbuilder where you interrogate AI opponents. With your own free Gemini key, about 70% of the thinking machines' moves are live Google Gemini calls and the rest are deterministic scripts, and you score by catching the fakes, a playable Turing test. Without a key it plays free against the scripted brain.
 
 - React 19 + TypeScript + Vite + Tailwind, fully static (GitHub Pages), no backend
 - A ladder of Gemini opponents (2.5 Flash-Lite / 2.5 Flash / 3 Flash), with a scripted fallback on any failure
@@ -54,8 +54,8 @@ A co-op wave-defense mode for Don't Starve Together, built as a netcode portfoli
 
 An MCP server that helps teachers differentiate instruction for students with Individualized Education Programs (IEPs). Given a lesson and a student's IEP, the server provides Claude with structured context to produce specific, actionable instructional modifications.
 
-- TypeScript, Model Context Protocol (MCP 1.0)
-- Multi-student differentiation with accommodation matrices
+- TypeScript, Model Context Protocol (official TypeScript SDK)
+- Accommodation matrices and lesson modifications for one anonymized student's IEP, over resource URIs designed for more
 - Structured IEP data parsing, lesson plan analysis, and self-regulation checkpoints
 - Built for the [Waypoint Learning Challenge](https://github.com/igoldstein19/waypoint-challenge)
 
@@ -93,7 +93,7 @@ A Slay the Spire-inspired deckbuilder in Godot 4 with a narrative layer. Feature
 
 I contribute to the tools I build on:
 
-- **[resend/react-email #3572](https://github.com/resend/react-email/pull/3572)** -- Merged a fix so uploading a template updates the existing Resend template instead of creating a duplicate.
+- **[resend/react-email #3572](https://github.com/resend/react-email/pull/3572)** -- A fix (merged) so uploading a template updates the existing Resend template instead of creating a duplicate.
 - **[supabase/postgres-meta #1085](https://github.com/supabase/postgres-meta/pull/1085)** -- A fix so NOT NULL json/jsonb columns generate as `NonNullable<Json>`, ported with credit into **[supabase/sdk #125](https://github.com/supabase/sdk/pull/125)** (merged Aug 31 2026) when type generation moved to the shared `@supabase/postgrest-typegen` package.
 - **[supabase/postgres-meta #1083](https://github.com/supabase/postgres-meta/pull/1083)** and **[supabase/supabase-js #2461](https://github.com/supabase/supabase-js/pull/2461)** -- A `bigint_as` type-generation option for int8/numeric columns, so values past 2^53 stay lossless. Designed together with a Supabase maintainer. #1083 was closed Sep 7 2026 when type generation moved out of postgres-meta; the end-to-end int8 precision test in #2461 is open.
 
