@@ -10,7 +10,7 @@ Full-stack developer and game designer. I build production software and multipla
 
 A production PWA that aggregates food, drug, device, product, and vehicle recalls from government agencies across 13 countries. Users get personalized safety alerts based on dietary needs, allergies, and location.
 
-- **Frontend:** React + TypeScript, 48 pages, 14 languages, Capacitor for Android
+- **Frontend:** React + TypeScript, 14 languages, Capacitor for Android
 - **Backend:** Express.js API with 48 automated ingestion pipelines sourcing data from FDA, Health Canada, FSANZ, TGA, EU Safety Gate, RASFF, and 30+ other agencies
 - **Data:** PostgreSQL via Supabase, full keyword extraction and classification
 - **Monetization:** Stripe + RevenueCat (subscription model)
@@ -111,4 +111,5 @@ I contribute to the tools I build on:
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?logo=stripe&logoColor=white)
 ![Godot](https://img.shields.io/badge/Godot-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?logo=godotengine&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white)
 ![Phaser](https://img.shields.io/badge/Phaser-8B0000)
