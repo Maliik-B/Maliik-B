@@ -28,7 +28,7 @@ A production PWA that aggregates food, drug, device, product, and vehicle recall
 A roguelite deckbuilder where you interrogate AI opponents. With your own free Gemini key, about 70% of the thinking machines' moves are live Google Gemini calls and the rest are deterministic scripts, and you score by catching the fakes, a playable Turing test. Without a key it plays free against the scripted brain.
 
 - React 19 + TypeScript + Vite + Tailwind, fully static (GitHub Pages), no backend
-- A ladder of Gemini opponents (2.5 Flash-Lite / 2.5 Flash / 3 Flash), with a scripted fallback on any failure
+- A ladder of Gemini opponents (2.5 Flash-Lite / 3.6 Flash / 3.6 Flash with thinking on), with backup models paced to Google's free-tier limits and a scripted fallback when all are spent
 - All visuals hand-built in CSS/SVG, audio synthesized via Web Audio, CSP locked to Google only
 
 `React 19` | `TypeScript` | `Gemini API` | `shipped`
