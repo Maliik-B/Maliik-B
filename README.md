@@ -76,16 +76,18 @@ A multiplayer poker game where the rules mutate every round. Players vote on rul
 
 ---
 
-### [Fable](https://github.com/Maliik-B/Fable) -- Narrative Deckbuilder
+### [Mythworn](https://github.com/Maliik-B/Mythworn) -- Narrative Roguelike Deckbuilder
 
-A Slay the Spire-inspired deckbuilder in Godot 4 with a narrative layer. Features a passion system that shifts combat dynamics based on story choices, and dual-personality characters that evolve across acts.
+**[mythworn.com](https://mythworn.com)** | In development at Oddseed Games
 
-- GDScript, Godot 4
-- Combat engine, procedural map generator, branching event system
-- Card/relic pools, status effects, shop and rest mechanics
-- Uses the [Copy All Errors](https://github.com/Maliik-B/Fable/tree/master/addons/copy_all_errors) Godot editor plugin for batch-copying debugger output
+A roguelike deckbuilder in Godot 4 where your Passion, not your morality, decides who you become. One meter swings a keeper between two selves, and the damage, the card rewards and the deck follow it. A pledge made at Camelot's gate reshapes the map before you walk it.
 
-`5-tier passion system` | `34+ cards` | `18 relics` | `8 narrative events`
+- GDScript, Godot 4.4: cards and enemy moves built from one set of effect classes
+- Seeded runs on five independent random streams, with a same-seed proof to diff between commits
+- A headless balance harness that plays the real combat engine with a planning player, and checks its own model against the engine card by card
+- A content linter whose every rule is proved against a planted bug
+
+`seeded runs` | `balance harness` | `self-testing linter` | `700+ behaviour checks`
 
 ---
 
