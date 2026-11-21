@@ -97,7 +97,7 @@ I contribute to the tools I build on:
 
 - **[resend/react-email #3572](https://github.com/resend/react-email/pull/3572)** -- A fix (merged) so uploading a template updates the existing Resend template instead of creating a duplicate.
 - **[supabase/postgres-meta #1085](https://github.com/supabase/postgres-meta/pull/1085)** -- A fix so NOT NULL json/jsonb columns generate as `NonNullable<Json>`, ported with credit into **[supabase/sdk #125](https://github.com/supabase/sdk/pull/125)** (merged Aug 31 2026) when type generation moved to the shared `@supabase/postgrest-typegen` package.
-- **[supabase/postgres-meta #1083](https://github.com/supabase/postgres-meta/pull/1083)** and **[supabase/supabase-js #2461](https://github.com/supabase/supabase-js/pull/2461)** -- A `bigint_as` type-generation option for int8/numeric columns, so values past 2^53 stay lossless. Designed together with a Supabase maintainer. #1083 was closed Sep 7 2026 when type generation moved out of postgres-meta; the end-to-end int8 precision test in #2461 is open.
+- **[supabase/postgres-meta #1083](https://github.com/supabase/postgres-meta/pull/1083)** and **[supabase/supabase-js #2461](https://github.com/supabase/supabase-js/pull/2461)** -- A `bigint_as` type-generation option for int8/numeric columns, so values past 2^53 stay lossless. Reshaped in review with a Supabase maintainer. #1083 was closed Sep 7 2026 when type generation moved out of postgres-meta; the end-to-end int8 precision test in #2461 is open.
 
 ---
 
